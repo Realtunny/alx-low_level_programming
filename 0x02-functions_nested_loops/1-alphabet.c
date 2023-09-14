@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - Make the alphabet small letters 
+ * print_alphabet - Make the alphabet small letters
  *
  * Return: void
  */
@@ -10,7 +10,7 @@ void print_alphabet(void)
 
 {
 	char c;
-	
+
 	for (c = 'a'; c <= 'z' ; c++)
 	{
 	_putchar(c);
